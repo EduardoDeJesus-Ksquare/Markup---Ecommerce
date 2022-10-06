@@ -1,1 +1,175 @@
+body {
+    font-family: Calibri;
+    margin: 0 7vw;
+}
 
+.navbar, .navs, .profile, .main, .miniPics, .buttons, .currentPrice, .quantity {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar {
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    border-bottom: #E8E7EC 1px solid;
+    margin-bottom: 10vh;
+}
+
+.navs {
+    column-gap: 20px;
+}
+
+.cart > img {
+    width: 1.5vw;
+    height: auto;
+}
+
+.profile {
+    column-gap: 40px;
+    align-items: center;
+}
+
+.gallery, .info {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: #67686A;
+}
+
+.currentPrice {
+    align-items: center;
+    column-gap: 20px;
+}
+
+h2 {
+    margin: 10px 0px;
+}
+
+
+.previousPrice {
+    text-decoration: line-through;
+    color: #B7BBBE;
+    font-weight: 600;
+    font-size: large;
+}
+
+.discountBadge {
+    background-color: #FFF0E3;
+    color: #FF7D1B;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.profilePic > img{
+    border-radius: 50%;
+    width: 1.5vw;
+    height: 1.5vw;
+    min-width: 55px;
+    min-height: 55px;
+}
+
+.brand  {
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: Georgia;
+    margin: -10px 30px 0px 0px;
+}
+
+
+.productName {
+    font-size: xx-large;
+}
+
+.description {
+    color: #6E6D72;
+    font-size: large;
+    margin-bottom: 25px;
+}
+
+.mainPic > img {
+    width: 83%;
+}
+
+.mini > img {
+    width: 5.7vw;
+}
+
+.mainPic > img, .mini > img, .add, .quantity {
+    border-radius: 15px;
+}
+
+.miniPics {
+    column-gap: 25px;
+}
+
+.gallery, .info {
+    width: 100vw;
+}
+
+.gallery {
+    row-gap: 25px;
+}
+
+.miniActive > img {
+    border: #FF7D1B 2px solid;
+    opacity: 50%;
+}
+.info {
+    align-content: center;
+    margin-top: 10vh;
+}
+
+.title, .minus, .plus {
+    color: #FF7D1B;
+}
+
+.add {
+    background-color: #FF7D1B;
+    color: white;
+    border: none;
+    flex-grow: 1;
+    font-weight: 600;
+    font-size: large;
+    padding: 20px;
+}
+
+.add > img {
+    width: 2vh;
+    filter: brightness(3);
+}
+
+.main {
+    margin: 0 7vw;
+    width: 70vw;
+    column-gap: 5vw;
+}
+
+.quantity {
+    background-color: #F7F8FD;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-grow: .5;
+    display: flex;
+    overflow: hidden;
+    font-weight: 600;
+    font-size: larger;
+    
+}
+
+.plus, .minus {
+    border: none;
+    background-color: #F7F8FD;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.buttons {
+    margin-top: 3vh;
+    justify-content: space-between;
+    column-gap: 15px;
+}
